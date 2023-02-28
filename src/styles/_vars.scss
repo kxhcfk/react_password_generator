@@ -1,0 +1,11 @@
+:root {
+	--content-width: 120rem;
+	--container-offset: 1.6rem;
+	--container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+	
+	// colors
+	--color-white: #E8EAED;
+	--color-dark: #202124;
+	--color-lightdark: #282A2E;
+	--color-second: #3C3D42;
+}

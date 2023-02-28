@@ -1,0 +1,30 @@
+@import "reset-css";
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.container {
+	margin-inline: auto;
+	padding-inline: var(--container-offset);
+}
+
+.App {
+	min-height: calc(var(--vh, 1vh) * 100);
+	display: flex;
+	flex-direction: column;
+	font-size: 2rem;
+	background-color: var(--color-dark);
+	color: var(--color-white);
+	font-family: "Roboto", sans-serif;
+}
+
+.main {
+	flex-grow: 1;
+}
